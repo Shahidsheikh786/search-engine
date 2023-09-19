@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Img search app</title>
+</head>
+    
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+<link rel="stylesheet" href="style.css">
+
+<body>
+    
+    <div class="loading-container">
+          <div class="loader"></div>
+
+    </div>
+    
+   <h1 id="heading">Image Search Engine <span onclick="info()"><i  class='bx bxs-info-circle'></i></span></h1>
+    
+    
+    <form id="search-area" >
+  
+  <input  id="search-box" type="text"  placeholder="Search Image..."/>
+        <button type="submit" > Search </button>
+    </form>
+    
+    <div id="search-result"></div>
+    <div class="showMore-container">
+          <button id="show-more">Show More</button>
+
+    </div>
+    
+    
+   
+    
+    
+</body>
+<script src="script.js"></script>
+</html>
+
